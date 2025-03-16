@@ -16,7 +16,7 @@ const Home: React.FC<HomeProps> = ({ walletData }) => {
         <div className="grid grid-cols-2 gap-4 px-4">
           <div className="flex flex-col space-y-4">
             <CardBalance walletData={walletData} />
-            <DailyPoints basePoints={walletData.dailyPoints} seasonDay={2} />
+            <DailyPoints basePoints={walletData.dailyPoints} />
           </div>
           <NoPaymentDue />
         </div>

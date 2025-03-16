@@ -6,7 +6,7 @@ interface CardBalanceProps {
 }
 
 const CardBalance: React.FC<CardBalanceProps> = ({ walletData }) => {
-  const { cardBalance, cardLimit, paymentDue } = walletData;
+  const { cardBalance = 0, cardLimit = 0 } = walletData || {};
   const available = cardLimit - cardBalance;
 
   return (

@@ -7,5 +7,15 @@ export interface Transaction {
     date: string; 
     icon: string;
     person?: string; 
-  }
+}
+
+export interface WalletData {
+    cardBalance: number;
+    cardLimit: number;
+    paymentDue: number | null;
+    dailyPoints: number;
+    cardNumber: string;
+    cardExp: string;
+    transactions: Transaction[];
+}
   
