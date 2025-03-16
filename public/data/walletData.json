@@ -1,0 +1,67 @@
+{
+  "cardBalance": 17.30,
+  "dailyPoints": 456,
+  "cardNumber": "**** **** **** 1234",
+  "cardExp": "12/24",
+  "cardLimit": 1500,
+  "paymentDue": null,
+  "transactions": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "type": "Credit",
+      "amount": 14.06,
+      "status": "Pending",
+      "date": "2023-03-06T14:00:00Z",
+      "icon": "apple",
+      "person": "Diana"
+    },
+    {
+      "id": 2,
+      "name": "Payment",
+      "type": "TopUp",
+      "amount": 174.00,
+      "status": "Approved",
+      "date": "2023-02-28T09:00:00Z",
+      "icon": "money-bill"
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "type": "Credit",
+      "amount": 3.24,
+      "status": "Approved",
+      "date": "2023-03-02T10:00:00Z",
+      "icon": "apple",
+      "person": "Alex"
+    },
+    {
+      "id": 4,
+      "name": "Payment",
+      "type": "TopUp",
+      "amount": 99.71,
+      "status": "Approved",
+      "date": "2023-02-25T19:00:00Z",
+      "icon": "money-bill"
+    },
+    {
+      "id": 5,
+      "name": "IKEA",
+      "type": "Credit",
+      "amount": 21.61,
+      "status": "Approved",
+      "date": "2023-02-18T12:00:00Z",
+      "icon": "shopping-bag"
+    },
+    {
+      "id": 6,
+      "name": "Target",
+      "type": "Credit",
+      "amount": 73.58,
+      "status": "Approved",
+      "date": "2023-03-01T08:00:00Z",
+      "icon": "shopping-bag",
+      "person": "Megan"
+    }
+  ]
+}
